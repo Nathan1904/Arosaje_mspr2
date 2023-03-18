@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "528686946513",
+    "project_id": "arosaje-main",
+    "storage_bucket": "arosaje-main.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528686946513:android:37c42ad9151ec249c5cdf0",
+        "android_client_info": {
+          "package_name": "com.example.arosaje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528686946513-kvudlfilud82p0uqiikjj9sma16abr0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ7gYHdceMQaJdqGfsL-Dn8iiLb8C2Ugc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528686946513-kvudlfilud82p0uqiikjj9sma16abr0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

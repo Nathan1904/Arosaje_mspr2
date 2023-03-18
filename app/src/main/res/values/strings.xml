@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Arosaje</string>
+    <string name="entrer_le_nom_de_la_plante">Entrer le nom de la plante</string>
+    <string name="text1">Arosaje</string>
+    <string name="login">S\'identifier</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">S\'inscrire</string>
+    <string name="click_to_login">Déjà inscrit? Cliquez pour vous identifiez</string>
+    <string name="clic_to_register">Pas de compte? cliquez pour vous inscire</string>
+    <string name="gardiennage">Gardiennage</string>
+    <string name="logout">deconnexion</string>
+    <string name="mes_plantes">Mes Plantes</string>
+</resources>
