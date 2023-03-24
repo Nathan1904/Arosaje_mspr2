@@ -7,4 +7,5 @@
     <item name="progressBar" type="id" />
     <item name="loginNow" type="id" />
     <item name="user_details" type="id" />
+    <item name="forgetPass" type="id" />
 </resources>

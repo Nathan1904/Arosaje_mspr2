@@ -25,9 +25,9 @@
         android:layout_width="374dp"
         android:layout_height="115dp"
         android:gravity="center"
-        android:text="A'Rosa-je"
+        android:text="@string/a_rosa_je"
         android:textColor="@color/white"
-        android:textSize="80dp"
+        android:textSize="80sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="11dp"
         tools:ignore="MissingConstraints" />

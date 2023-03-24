@@ -20,6 +20,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.Objects;
+
 public class Register extends AppCompatActivity {
     TextInputEditText editTextEmail, editTextPassword;
     Button buttonReg;
@@ -80,11 +82,21 @@ public class Register extends AppCompatActivity {
                                 progressBar.setVisibility(View.GONE);
 
                                 if (task.isSuccessful()) {
-                                    Toast.makeText(Register.this, "Account created",
-                                            Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(getApplicationContext(), Login.class);
-                                    startActivity(intent);
-                                    finish();
+                                    Objects.requireNonNull(mAuth.getCurrentUser()).sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if(task.isSuccessful()){
+                                                Toast.makeText(Register.this, "Compte créer veuillez verifier vos emails",
+                                                        Toast.LENGTH_SHORT).show();
+                                            }
+                                            else {
+                                                Toast.makeText(Register.this, "Echec de l'authentication.",
+                                                        Toast.LENGTH_SHORT).show();
+
+                                            }
+                                        }
+                                    });
+
 
                                 } else {
                                     // If sign in fails, display a message to the user.

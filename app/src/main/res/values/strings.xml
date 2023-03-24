@@ -11,4 +11,9 @@
     <string name="gardiennage">Gardiennage</string>
     <string name="logout">deconnexion</string>
     <string name="mes_plantes">Mes Plantes</string>
+    <string name="a_rosa_je">A\'Rosa-je</string>
+    <string name="forget_password">Mot de passe oublié?</string>
+    <string name="email1">Email</string>
+    <string name="link_send">Recevoir le lien</string>
+    <string name="mot_de_passe_oubli">Mot de passe oublié?</string>
 </resources>
